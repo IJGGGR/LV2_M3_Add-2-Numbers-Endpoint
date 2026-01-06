@@ -14,7 +14,7 @@ namespace MyAPI.Controllers
         [Route("{one}/{two}")]
         public string Add2Numbers(int one, int two)
         {
-            return $"{one} + {two} = {one + two}";
+            return $"The sum of {one} and {two} is {one + two}.";
         }
     }
 }
